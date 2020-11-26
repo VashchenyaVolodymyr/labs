@@ -18,15 +18,15 @@ public class Main {
                 System.out.print("Mod =  ");
                 double mod = in.nextDouble();
 
-                System.out.print("For + : ");
+                //System.out.print("For + : ");
                 System.out.println((A + B) % mod);
-                System.out.print("For - : ");
+                //System.out.print("For - : ");
                 System.out.println((A - B) % mod);
-                System.out.print("For / : ");
+               // System.out.print("For / : ");
                 System.out.println((A / B) % mod);
-                System.out.print("For * :");
+                //System.out.print("For * :");
                 System.out.println((A * B) % mod);
-                System.out.print("For ^ : ");
+                //System.out.print("For ^ : ");
                 System.out.println((Math.pow(A, B)) % mod);
         }
 }
