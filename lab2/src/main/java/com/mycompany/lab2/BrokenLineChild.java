@@ -7,7 +7,7 @@ package com.mycompany.lab2;
 
 import java.util.LinkedList;
 
-public class BrokenLineChild extends BrokenLine {
+final public class BrokenLineChild extends BrokenLine {
 
     public BrokenLineChild() {
         super();
