@@ -7,10 +7,7 @@ package com.mycompany.kakulator;
 
 import java.util.Scanner;
 
-/**
- *
- * @author sasha
- */
+// калькулятор считает модули от операций над двумя числами
 public class Main {
     public static void main(String[] args)  {
                 Scanner in = new Scanner(System.in);
@@ -21,15 +18,15 @@ public class Main {
                 System.out.print("Mod =  ");
                 double mod = in.nextDouble();
 
-                System.out.print("For + : ");
+                //System.out.print("For + : ");
                 System.out.println((A + B) % mod);
-                System.out.print("For - : ");
+                //System.out.print("For - : ");
                 System.out.println((A - B) % mod);
-                System.out.print("For / : ");
+               // System.out.print("For / : ");
                 System.out.println((A / B) % mod);
-                System.out.print("For * :");
+                //System.out.print("For * :");
                 System.out.println((A * B) % mod);
-                System.out.print("For ^ : ");
+                //System.out.print("For ^ : ");
                 System.out.println((Math.pow(A, B)) % mod);
         }
 }
